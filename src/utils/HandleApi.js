@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "https://fullstack-svenskaord-backend-new.onrender.com";
+const baseUrl = "https://fullstack-svenskaord-backend-new.onrender.com/api/svenska";
 
 // 获取所有单词
 export const getAllSvenskaOrd = (setSvenskaOrd) => {
